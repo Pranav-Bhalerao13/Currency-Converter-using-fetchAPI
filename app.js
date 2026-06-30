@@ -57,7 +57,7 @@ fromSelect.addEventListener("change", (e) => {
 });
 
 toSelect.addEventListener("change", (e) => {
-  updateFlag(ToSelect, flagTo);
+  updateFlag(toSelect, flagTo);
 });
 
 swapButton.addEventListener("click", () => {
